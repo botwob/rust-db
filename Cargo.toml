@@ -1,9 +1,11 @@
 [package]
-name = "database"
-version = "0.1.0"
+name = "kvs"
+version = "0.2.0"
 authors = ["Jack Copland <jack@jaxwax.com.au>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
+[dev-dependencies]
+assert_cmd = "0.11.1"
+predicates = "1.0.0"
